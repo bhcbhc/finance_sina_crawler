@@ -1,0 +1,33 @@
+{
+  "name": "finance_sina_crawler",
+  "version": "1.0.0",
+  "description": "爬虫获取新浪财经a股公司季度财报数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhcbhc/finance_sina_crawler.git"
+  },
+  "keywords": [
+    "node",
+    "crawler",
+    "sina",
+    "finance"
+  ],
+  "author": "bhcbhc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhcbhc/finance_sina_crawler/issues"
+  },
+  "homepage": "https://github.com/bhcbhc/finance_sina_crawler#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "http": "0.0.0",
+    "iconv-lite": "^0.4.21",
+    "mongodb": "^3.0.6"
+  }
+}
